@@ -11,6 +11,7 @@ face_cascade = cv2.CascadeClassifier('..\\opencv\\sources\\data\\haarcascades\\h
 while(True):
     # Captura a imagem frame por frame
     ret, frame = cap.read()
+    frame = cv2.flip(frame,1)
 
     # Detecta o rosto com base na classificação contida no haarcascade selecionado
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
