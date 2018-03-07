@@ -119,7 +119,7 @@ while(True):
     # Mostra o resultado da captura
     cv2.imshow('frame',frame)
 
-    # Encerra caso aperte a letra q ou num 1
+    # Encerra caso aperte a letra q
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
