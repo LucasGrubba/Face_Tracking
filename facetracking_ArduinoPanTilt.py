@@ -13,8 +13,8 @@ cap.set(4, 480) #altura
 serialConnection = serial.Serial('COM4', 9600)
 
 # Localiza haarcascade para detecccao de rosto e olho
-face_cascade = cv2.CascadeClassifier('C:\\Users\\lucas\\AppData\\Local\\Programs\\Python\\Python36-32\\Lib\\site-packages\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('C:\\Users\\lucas\\AppData\\Local\\Programs\\Python\\Python36-32\\Lib\\site-packages\\opencv\\sources\\data\\haarcascades\\haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('..\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('..\\opencv\\sources\\data\\haarcascades\\haarcascade_eye.xml')
 
 # Definiçoes iniciais
 tilt_chan = 0   # Canal de comunicaçao do tilt com Arduino
