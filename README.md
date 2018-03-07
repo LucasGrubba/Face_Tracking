@@ -1,5 +1,5 @@
-# Reconhecimento_Facial_Simples
-Reconhecimento facial pela webcam em Python e OpenCV
+# Face Tracking Basic
+Detecção de rosto pela webcam em Python com OpenCV
 
 O presente código foi elaborado a partir dos exemplos encontrados na página do criador https://github.com/opencv/opencv/tree/3.4.1/samples/python
 
