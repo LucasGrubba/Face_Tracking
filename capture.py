@@ -1,9 +1,11 @@
 import cv2
 
+# Determina o tamanho da janela de captura
 cap = cv2.VideoCapture(0)
-cap.set(3, 640) #WIDTH
-cap.set(4, 480) #HEIGHT
+cap.set(3, 640) #largura
+cap.set(4, 480) #altura
 
+# Local do haarcascade para reconhecimento de rostos
 face_cascade = cv2.CascadeClassifier('..\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml')
 
 while(True):
